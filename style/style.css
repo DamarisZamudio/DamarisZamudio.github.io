@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Poiret+One&display=swap');
+
+html {
+  background-image: url(../images/background.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*navigation bar style start*/
+nav ul {
+  background-color: #999;
+  list-style-type: none;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+nav li {
+  float:left;
+}
+
+nav a {
+  color: #EEE;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+/*navigation bar style end*/
+
+footer {
+  background-color: #999;
+  color: #EEE;
+  bottom: 0;
+}
+
+#wrapper {
+  max-width: 960px;
+  height: 100%;
+  position: relative;
+  max-width:50;
+  margin: 0;
+}
+body {
+  background-color: rgb(255,255,255,0.8);
+  font-family: 'Crimson Text', "Georgia","Times New Roman", serif;
+  color: #333;
+
+}
+
+h1,
+nav {
+  font-family: 'Poiret One', cursive, sans-serif;
+}
+
+h1 {
+  color: #666;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Crimson Text', "Georgia","Times New Roman", serif;
+  color: #666;
+}
+main {
+  display: grid;
+  max-width: 960px;
+  grid-template-columns: 1fr 1fr;
+}

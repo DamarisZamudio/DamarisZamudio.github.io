@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Poiret+One&display=swap');
 
 html {
-  background-image: url(../images/background.svg);
+  background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -45,7 +45,7 @@ footer {
   margin: 0;
 }
 body {
-  background-color: rgb(255,255,255,0.8);
+  background-color: rgb(255,255,255,0.75);
   font-family: 'Crimson Text', "Georgia","Times New Roman", serif;
   color: #333;
 
@@ -61,7 +61,8 @@ h1 {
   text-transform: uppercase;
 }
 
-h2 {
+h2,
+h3 {
   font-family: 'Crimson Text', "Georgia","Times New Roman", serif;
   color: #666;
 }

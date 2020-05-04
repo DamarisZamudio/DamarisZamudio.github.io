@@ -182,56 +182,12 @@ main a:active {
   margin-top: 0;
 }
 
-#box1 {
-  background-color: #666;
-  width: 914px;
-  height: 900px;
-  position:absolute;
-  top: 450px;
-  bottom: 0;
-  right: 250px;
-  z-index: -1;
-}
-
 #photojournalism {
   text-align: right;
 }
 
-#box2 {
-  background-color: #666;
-  width: 914px;
-  height: 840px;
-  position:absolute;
-  top: 1550px;
-  bottom: 0;
-  left:250px;
-  z-index: -1;
-}
-
-#box3 {
-  background-color: #666;
-  width: 914px;
-  height: 755px;
-  position:absolute;
-  top: 2580px;
-  bottom: 0;
-  right:250px;
-  z-index: -1;
-}
-
 #paid {
   text-align: right;
-}
-
-#box4 {
-  background-color: #666;
-  width: 914px;
-  height: 940px;
-  position:absolute;
-  top: 3535px;
-  bottom: 0;
-  left:250px;
-  z-index: -1;
 }
 /*Photography page style end*/
 
